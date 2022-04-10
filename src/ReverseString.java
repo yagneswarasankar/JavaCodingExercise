@@ -14,6 +14,7 @@ public class ReverseString {
         System.out.println("Reversed String: "+reverseString(str));
         System.out.println("Reversed String: "+reverseString1(str));
 
+
     }
 
     //Method Take the string in character array.
@@ -32,10 +33,13 @@ public class ReverseString {
     static String reverseString1(String str){
         String resString = "";
         for(int i = str.length() -1;i >= 0;i-- ){
-            str += str.charAt(i);
-            //System.out.println(resString);
+            resString += str.charAt(i);
         }
         return resString;
     }
+
+
+
+
 
 }
