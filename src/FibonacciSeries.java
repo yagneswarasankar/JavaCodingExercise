@@ -33,6 +33,7 @@ public class FibonacciSeries {
                 a = b;
                 b = c;
                 c = a + b;
+
             }
         }
     }
